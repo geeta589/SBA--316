@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;   
+   }
+   
+   .main{
+       width: 100%;
+       background: linear-gradient(to top, rgba(179, 105, 63, 0.815)50%, rgba(85, 80, 15, 0.815)50%, rgb(25, 33, 151)50%),url(th.jpg);
+       background-position: center;
+       background-size: cover;
+       height: 100vh;
+       width: 200vh;
+   }
+   
+   .navbar{
+       width: 1000px;
+       height: 75px;
+       margin:auto;
+       border: antiquewhite;
+   }
+   
+   .icon{
+       width: 70px;
+       float: left;
+       height: 70px;
+   }
+   
+   .logo{
+       color: darkgoldenrod;
+       font-size: 30px;
+       font-family: Arial;
+       padding-left: 50px;
+       float: left;
+       padding-top: 20px;
+   }
+   .menu{
+       width: 1200px;
+       float: left;
+       height: 70px;
+   }
+   
+   ul{
+       float: right;
+       display: flex;
+       justify-content:center;
+       align-items: center;
+   }
+   
+   ul li{
+       list-style: none;
+       margin-left: 62px;
+       margin-top: 25px;
+       font-size: 15px;
+   }
+   
+   ul li a{
+       text-decoration: none;
+       color: white;
+       font-family: Arial;
+       font-weight:bold;
+       transition: 0.4s ease-in-out;
+   }
+   
+   ul > li > a:hover{
+       color:chocolate;
+   }
+   
+   .srcmenu{
+       margin: 202px;
+       /* margin-left: auto; */
+       width: 1200px;
+       float: left;
+       height: 1000px;
+   }
+   
+   input
+   {
+       height: 30px;
+       
+   }
+
+   .imgplate{
+        margin-left: 62px;
+       margin-top: 25px;
+       height: 50px;  
+       width: 50px;      
+   }
+
+   .form-container{
+    margin: 50px;
+    /* border: 5px; */
+    }
